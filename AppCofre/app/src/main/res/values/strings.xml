@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AppCofre</string>
+    <string name="appcofre">AppCofre</string>
+    <string name="senha">Senha:</string>
+    <string name="usu_rio">Usuário:</string>
+    <string name="servi_o">Serviço:</string>
+    <string name="anterior">Anterior</string>
+    <string name="novo">Novo</string>
+    <string name="pr_ximo">Próximo</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="alterar">Alterar</string>
+    <string name="deletar">Deletar</string>
+    <string name="password">🔒</string>
+    <string name="user">📲</string>
+    <string name="logo">logo</string>
+</resources>

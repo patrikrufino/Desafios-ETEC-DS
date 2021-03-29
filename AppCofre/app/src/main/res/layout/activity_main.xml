@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtAppCofre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/cabin_sketch_bold"
+        android:text="@string/appcofre"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/txtServico"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/txtServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10sp"
+        android:text="@string/servi_o"
+        app:layout_constraintBottom_toTopOf="@+id/edtServico"
+        tools:layout_editor_absoluteX="10dp" />
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/usu_rio"
+        android:layout_marginHorizontal="10dp"
+        app:layout_constraintBottom_toTopOf="@id/edtUsuario"
+        />
+
+    <EditText
+        android:id="@+id/edtServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Google, Facebook..."
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@id/txtUsuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/user"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@id/txtSenha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAutofill="no" />
+    <TextView
+        android:id="@+id/txtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/senha"
+        android:layout_marginHorizontal="10dp"
+        app:layout_constraintBottom_toTopOf="@id/edtSenha"
+        />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="32dp"
+        android:hint="@string/password"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@id/btnAnterior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnAnterior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/buttonout"
+        android:onClick="clickBtnAnterior"
+        android:text="@string/anterior"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@id/btnCadastrar"
+        app:layout_constraintEnd_toStartOf="@+id/btnNovo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnNovo"
+        android:layout_width="121dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/buttonout"
+        android:onClick="clickBtnNovo"
+        android:text="@string/novo"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@id/btnCadastrar"
+        app:layout_constraintEnd_toStartOf="@+id/btnProximo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnAnterior" />
+
+    <Button
+        android:id="@+id/btnProximo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/buttonout"
+        android:onClick="clickBtnProximo"
+        android:text="@string/pr_ximo"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@id/btnCadastrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnNovo" />
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:onClick="clickBtnCadastrar"
+        android:text="@string/cadastrar"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/btnAlterar"
+        tools:layout_editor_absoluteX="10sp" />
+    <Button
+        android:id="@+id/btnAlterar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="clickBtnAlterar"
+        android:text="@string/alterar"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/btnDeletar"
+        tools:layout_editor_absoluteX="10dp" />
+    <Button
+        android:id="@+id/btnDeletar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="clickBtnDeletar"
+        android:text="@string/deletar"
+        android:background="@drawable/buttonountdel"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="76dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/logo" />
+
+</android.support.constraint.ConstraintLayout>
