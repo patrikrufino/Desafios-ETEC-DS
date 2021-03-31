@@ -1,4 +1,4 @@
-# AProjetos ETEC - DS
+# Projetos ETEC - DS
 
 ## [AppCofre]((https://github.com/patrikrufino/Desafios-ETEC-DS/tree/main/AppCofre))
 <p>Este aplicativo, pode ser utilizado para guardar credenciais de serviços web como: Facebook, Youtube, etc.</p>
