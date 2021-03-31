@@ -1,11 +1,12 @@
 # Projetos ETEC - DS
 
-## [AppCofre]((https://github.com/patrikrufino/Desafios-ETEC-DS/tree/main/AppCofre))
+## [AppCofre](https://github.com/patrikrufino/Desafios-ETEC-DS/tree/main/AppCofre)
 <p>Este aplicativo, pode ser utilizado para guardar credenciais de serviços web como: Facebook, Youtube, etc.</p>
 
 ### Demostração do App
-[![Video demonstrando como o jogo funciona.](http://img.youtube.com/vi/JQyv5p6dQ7g/0.jpg)](http://www.youtube.com/watch?v=JQyv5p6dQ7g "")
+[![Video AppCofre](http://img.youtube.com/vi/JQyv5p6dQ7g/0.jpg)](http://www.youtube.com/watch?v=JQyv5p6dQ7g "AppCofre")
 
+====================================================================================================================================================================
 
 ## [LUXIMETRO](https://github.com/patrikrufino/ETEC-Desenvolvimento-de-Sistemas/new/main/Luximetro)
 
