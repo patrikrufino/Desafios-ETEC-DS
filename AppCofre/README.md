@@ -23,14 +23,3 @@
   
 * Personalização xml:
   - [Botões e Logo](https://github.com/patrikrufino/appcofre-etec/tree/main/app/src/main/res/drawable)
-
-### Quer rodar você mesmo?
-
-1. Faça o clone do repositório:
-```
-https://github.com/patrikrufino/appcofre-etec.git
-```
-2. Abra o Android Studio;
-3. Abra a pasta do projeto;
-
-## _Good Luck!_
