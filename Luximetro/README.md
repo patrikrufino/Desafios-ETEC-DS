@@ -14,3 +14,7 @@ Este aplicativo Android, pode identificar a quantidade de luz ambiente.
 
 - [Código Java | Main Activity](https://github.com/patrikrufino/ETEC-Desenvolvimento-de-Sistemas/blob/main/Luximetro/app/src/main/java/etec/ds/agenda07_luximetro/MainActivity.java)
 - [Código XML | Layout](https://github.com/patrikrufino/ETEC-Desenvolvimento-de-Sistemas/blob/main/Luximetro/app/src/main/res/layout/activity_main.xml)
+
+##
+
+[![Voltar](https://img.icons8.com/nolan/2x/back.png)](https://github.com/patrikrufino/ETEC-DS-Android)
