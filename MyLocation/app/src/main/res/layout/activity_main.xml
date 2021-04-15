@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282A36"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnGps"
+        android:layout_width="242dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/wallpoet"
+        android:shadowColor="#ff79c6"
+        android:text="Obter Localização"
+        android:textColor="#f8f8f2"
+        app:cornerRadius="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#ffb86c"
+        app:strokeColor="#ff79c6" />
+
+    <TextView
+        android:id="@+id/txtLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/wallpoet"
+        android:text="Desconhecida"
+        android:textColor="#f1fa8c"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleLongitude" />
+
+    <TextView
+        android:id="@+id/txtTituloLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/wallpoet"
+        android:text="Latitude"
+        android:textColor="#ff5555"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLongitude"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/wallpoet"
+        android:text="Desconhecida"
+        android:textColor="#f1fa8c"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTituloLatitude" />
+
+    <TextView
+        android:id="@+id/txtTituloAltidude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/wallpoet"
+        android:text="Altitude"
+        android:textColor="#ff5555"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLatitude"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtAltitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/wallpoet"
+        android:text="Desconhecida"
+        android:textColor="#f1fa8c"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTituloAltidude" />
+
+    <TextView
+        android:id="@+id/LogoApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/wallpoet"
+        android:text="📡 MyLocation"
+        android:textColor="#50fa7b"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtTitleLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/wallpoet"
+        android:text="Longitude"
+        android:textColor="#ff5555"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogoApp"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
