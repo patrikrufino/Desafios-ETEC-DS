@@ -6,7 +6,7 @@
 ### Demostração do App
 [![Video AppCofre](http://img.youtube.com/vi/JQyv5p6dQ7g/0.jpg)](http://www.youtube.com/watch?v=JQyv5p6dQ7g "AppCofre")
 
-===
+##
 
 ## [LUXIMETRO](https://github.com/patrikrufino/ETEC-DS-Android/tree/main/Luximetro)
 
@@ -14,3 +14,5 @@
 
 ### Confira uma demonstração:
 [![Video Luximetro](http://img.youtube.com/vi/6JGo-N20kYM/0.jpg)](http://www.youtube.com/watch?v=6JGo-N20kYM "LUXIMETRO")
+
+##
