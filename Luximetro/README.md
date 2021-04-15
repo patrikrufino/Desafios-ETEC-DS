@@ -17,4 +17,4 @@ Este aplicativo Android, pode identificar a quantidade de luz ambiente.
 
 ##
 
-[![Voltar](https://img.icons8.com/nolan/2x/back.png)](https://github.com/patrikrufino/ETEC-DS-Android/blob/main/README.md)
+[![Voltar](https://img.icons8.com/nolan/2x/back.png)](https://github.com/patrikrufino/ETEC-DS-Android)
